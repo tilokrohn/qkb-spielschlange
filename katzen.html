@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">  
+	<title>Quatschkatzenbaum - Katzen</title>
+	<link href="css/katzen.css" rel="stylesheet" type="text/css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/global-screens.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/e5caab2788.js" crossorigin="anonymous"></script>
+	<script src="javascript/global.js"></script>   
+</head>
+<body oncontextmenu="return false">
+
+    <div id="container">
+		
+		<header>
+			<nav class="topnav" id="myTopnav">
+				<a href="index.html" class="menupunkt vor_aktivem_menupunkt" title="ICH">Ich</a>
+				<a href="katzen.html" class="aktiver_menupunkt" title="Miau">Katzen</a>
+				<a href="baum.html" class="menupunkt nach_aktivem_menupunkt" title="Bäume und Äste">Bäume</a>
+				<a href="kontakt.html" class="menupunkt" title="Reden Sie mit uns!"> Kontakt</a>
+                <a href="https://www.google.de/search?q=quatschkatzenbaum" class="menupunkt" target="_blank" title="Such mich bei Google! - Aber nur zusätzlich in neuem Tab bzw. Fenster..."
+                    >Suche <i class="fas fa-external-link-alt fa-xs"></i></a>
+				<a href="javascript:void(0);" class="icon menupunkt hamburger" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>			
+			</nav>
+	    </header>
+
+		
+        <main>
+            <section id="niedlich">
+
+                <div class="ueberschrift"><h2>Niedliche KATZEN<a href="#boese" title="Kater?" class="boese">Böse</a><i class="fas fa-arrow-right fa-xs boese"></i></h2>
+                    <br>
+                    Niedliche Katze hinzufügen:
+                    <input type="text" placeholder="Name" class="zusatzname"/>
+                    <input type="text" placeholder="Statement" class="zusatztext"/>
+                    <input type="text" placeholder="Bild-URL" class="zusatzbild"/>
+                    <input type="text" placeholder="Titel (Miau?)" class="zusatztitel"/>
+                    <button id="eintragen">Eintragen</button>
+                    <br><br>
+                    Hinweise:<br>Katze nicht anzeigen: Auf Katze zeigen und "x" eingeben<br>
+                                 Lieblingskatze auswählen: Rechtsklick auf Katze
+                </div>
+
+                <div class="flexbox" id="katzenniedlich-container">                  
+                </div>
+               
+            </section>        
+                
+			<section id="boese">
+
+                <div class="ueberschrift">
+                    <h2>Böse KATZEN
+                        <a href="#niedlich" title="Katzen?" class="niedlich">lieber niedliche</a>
+                        <i class="fas fa-arrow-up fa-xs niedlich"></i>
+                    </h2>
+                </div>
+    
+                <div class="flexbox" id="katzenboese-container">
+                </div>
+
+                
+            </section>   
+        </main>
+
+		<footer>
+            <p>  
+				<a href="kontakt.html">Impressum</a> |
+				<a href="datenschutz.html">Datenschutz</a> |
+	            &copy;QKB2021
+	            <!-- Alles Quatsch! -->
+	        </p>
+        </footer>
+
+    </div>  
+
+<canvas id="spielschlange" style="position: fixed; left: 0; top: 130px; border: 0px solid green;" ></canvas>
+
+<script src="javascript/katzen.js"></script>
+<script src="javascript/ziele.js"></script>
+<script src="javascript/schlange.js"></script>  
+
+</body>
+</html>

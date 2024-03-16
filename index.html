@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">  
+	<title>Quatschkatzenbaum</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/global-screens.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/e5caab2788.js" crossorigin="anonymous"></script>
+	<script src="javascript/global.js"></script>
+</head>
+<body>
+		
+	<div id="container">
+		
+		<header>
+			<nav class="topnav" id="myTopnav">
+				<a href="index.html" class="aktiver_menupunkt" title="ICH">Ich</a>
+				<a href="katzen.html"  class="menupunkt nach_aktivem_menupunkt" title="Miau">Katzen</a>
+				<a href="baum.html" class="menupunkt" title="Bäume und Astbäume">Bäume</a>
+				<a href="kontakt.html" class="menupunkt" title="Reden Sie mit uns!"> Kontakt</a>
+				<a href="https://www.google.de/search?q=quatschkatzenbaum" class="menupunkt" target="_blank" title="Such mich bei Google! - Aber nur zusätzlich in neuem Tab bzw. Fenster..."
+					>Suche&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>
+				<a href="javascript:void(0);" class="icon menupunkt hamburger" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>			
+			</nav>
+	    </header>
+		
+		<main>
+            <h1>Der Quatschkatzenbaum</h1>
+            
+            <hr>
+                     
+	        <img src="images/baum01.png" alt="Baum" title="Quatschkatzenbaum">
+	        <p class="alfa">
+	        So sehe ich mit versteckten Katzen aus.
+			</p>
+			<br>
+	        <p class="beta">
+	            Ich bin ein <strong>Baum</strong> - der <strong>Quatschkatzenbaum</strong>.<br>
+				In meiner Krone wohnen <strong>Katzen</strong>.<br>
+				Grinsekatzen, Baumkatzen und <a href="https://www.scout-o-wiki.de/index.php/Katze" target="_blank">andere Katzen.</a>
+	        </p>
+			
+		</main>
+		
+		<footer>
+            <p>  
+				<a href="kontakt.html">Impressum</a> |
+				<a href="datenschutz.html">Datenschutz</a> |
+	            &copy;QKB2021
+	            <!-- Alles Quatsch! -->
+	        </p>
+        </footer>
+		
+	</div>
+
+
+	<canvas id="spielschlange" style="position: fixed; left: 0; top: 85px; border: 0px solid green;" ></canvas>
+
+
+	<script src="javascript/ziele.js"></script>
+	<script src="javascript/schlange.js"></script>  
+	
+</body>
+</html>

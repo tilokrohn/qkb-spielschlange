@@ -1,0 +1,124 @@
+{
+    "katzenniedlich": [
+        {
+            "name"  : "Jerry",
+            "text"  : "Jeder Katzenhasser wird als Maus wiedergeboren.",
+            "bild"  : "images/baumkatzen/04.jpg",
+            "titel" : "Miau"
+        },
+        {
+            "name"  : "Mietzi",
+            "text"  : "Ich bin klein, mein Herz ist rein.<br>Lass mich Deine Lieblingskatze sein.",
+            "bild" : "images/baumkatzen/01.jpeg",
+            "titel" : "MiauMiau"
+        },
+        {
+            "name"  : "Molly",
+            "text"  : "Katzen liegen nicht faul rum.<br>Sie dekorieren den Baum.",
+            "bild"  : "images/baumkatzen/05.jpg",
+            "titel" : "MiauMiauMiau"
+        },
+        {
+            "name"  : "Lucy",
+            "text"  : "Eine Katze auf den Sterbebett: Rückblickend hätte ich viel mehr aus meinen sieben Leben machen sollen.",
+            "bild"  : "images/baumkatzen/06.jpg",
+            "titel" : "MiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Katzentier",
+            "text"  : "Was sagt eine Maus hinter einer Kuh? Mach bloß kein Scheiß.",
+            "bild"  : "images/baumkatzen/03.jpg",
+            "titel" : "MiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "DuDa",
+            "text"  : "Warum hat die Katze Öl auf die Maus gegossen? Weil sie so gequietscht hat.",
+            "bild"  : "images/baumkatzen/08.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Minz",
+            "text"  : "Ich bin adlig und heiße Mieze vom Schlosspark und du?“ - „Ja, ich bin auch adlig, ich heiße ,Runter vom Sofa‘!",
+            "bild"  : "images/baumkatzen/09.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Maunz",
+            "text"  : "Die Bedeutung von Katzen ist, dass wir lernen müssen, dass nicht alles in der Natur eine Bedeutung hat.",
+            "bild"  : "images/baumkatzen/12.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Miau",
+            "text"  : "Ich kann mich ihnen selber vorstellen.",
+            "bild"  : "images/baumkatzen/13.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Mimi",
+            "text"  : "Nicht alle Engel haben Flügel, manche haben Schnurrhaare.",
+            "bild"  : "images/baumkatzen/16.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Bella",
+            "text"  : "Der Katzen Scherz ist der Mäuse Tod.",
+            "bild"  : "images/baumkatzen/20.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiau"
+        },
+        {
+            "name"  : "Mila",
+            "text"  : "Das ist kein Kanarienvogel, der ist grün. Vielleicht ist er noch nicht reif?",
+            "bild"  : "images/baumkatzen/20.jpg",
+            "titel" : "MiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiauMiau"
+        }   
+    ],
+    "katzenboese": [
+        {
+            "name"  : "Leo",
+            "text"  : "Ihr Hund ist ja zum Fürchten, wo haben sie denn den her?<br>Der ist mir im Urlaub in Afrika zugelaufen. Ich habe ihm nur die Mähne abgeschnitten",
+            "class" : "boesebild1"
+        },
+        {
+            "name"  : "Pantheros",
+            "text"  : "Schwarzer Humor ist wie Essen. <br>Hat nicht jeder.",
+            "class" : "boesebild2"
+        },
+        {
+            "name"  : "Tigero",
+            "text"  : "Wie nennt ein Tiger einen Skater?<br>Rollbraten.",
+            "class" : "boesebild3"
+        },
+        {
+            "name"  : "Leon",
+            "text"  : "Alle Kinder besichtigen Löwen im Tierpark, nur nicht Jutta, die ist Futter",
+            "class" : "boesebild4"
+        },
+        {
+            "name"  : "Leodor",
+            "text"  : "Zwei Löwen fressen einen Clown. Meint der Eine: Schmeckt irgendwie komisch.",
+            "class" : "boesebild5"
+        },
+        {
+            "name"  : "Tigra",
+            "text"  : "Wie nennt ein Tiger Skelette?<br>Leergut",
+            "class" : "boesebild6"
+        },
+        {
+            "name"  : "Tigri",
+            "text"  : "Was ist bei Elefanten klein und bei Tigern groß?<br>Der Buchstabe „T“.",
+            "class" : "boesebild7"
+        },
+        {
+            "name"  : "Leonodus",
+            "text"  : "Ein Pfarrer ist allein auf Safari. Da begegnet er plötzlich einem Löwen. Er denkt: „Oh Herr, lass diesen Löwen ein christlicher sein!“ Der Löwe denkt: „Oh Herr, segne diese Mahlzeit!“",
+            "class" : "boesebild8"
+        },
+        {
+            "name"  : "Pantheror",
+            "text"  : "Was steht auf dem Grabstein eines Mathelehrers?<br>Damit hat er nicht gerechnet!",
+            "class" : "boesebild9"
+        }
+    ]
+
+}

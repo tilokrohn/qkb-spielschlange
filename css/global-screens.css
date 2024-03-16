@@ -1,0 +1,90 @@
+
+/* nur aktiver menüpunkt, hamburger anzeigen */
+@media screen and (max-width: 500px) {
+    .topnav a:not(.aktiver_menupunkt) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+/* ausklappmenü */
+@media screen and (max-width: 500px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      /*👉border: 2px solid red;👈*/
+    }
+}
+
+/* Änderung Menüpunkt-Layout */
+@media screen and (max-width: 500px) {
+    .topnav .nach_aktivem_menupunkt {
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 8px;
+    }
+    .topnav .hamburger {
+      border-bottom-left-radius: 8px;
+      text-align: center !important;
+    }
+}
+
+
+/*👉➡ nur aktiver menüpunkt, hamburger anzeigen ⬅
+@media (max-width: 9000px) {
+  .topnav a:not(.aktiver_menupunkt) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+}
+
+➡ ausklappmenü ⬅
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    border: 2px solid red;
+  }
+
+
+➡ Änderung Menüpunkt-Layout ⬅
+  .topnav .nach_aktivem_menupunkt {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+  }
+  .topnav .hamburger {
+    border-bottom-left-radius: 8px;
+    text-align: center !important;
+  }
+}👈*/
+
+/*👉@media (max-width: 6000px) {
+  .test{
+   color: red;
+  }   
+}
+@media (max-device-width: 6000px) {
+  .test{
+   color: blue;
+  }   
+}👈*/
+
+
+/*👉@media screen and (max-device-width: 8000px) {
+  .h1{
+      color: green;
+     } 
+}👈*/

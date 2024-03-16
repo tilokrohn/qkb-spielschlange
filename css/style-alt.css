@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: black;
+	background-color: darkgreen;
+    text-align: center;
+}
+
+#container {
+	width: 90%; /*relative Maßeinheit zur Breite eines Browserfensters*/
+	max-width: 1200px;  /*max. Ausbreitung in der Breite*/
+	margin: auto; /*zentriert unseren #container im Browserfenster*/
+	/*border: 5px solid red;*/
+    background: lightgreen;
+    
+}
+
+header {
+	height: 100%;
+	background: green;
+    border: 1px solid green;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+nav {
+	height: 200px;
+	background: lightskyblue;
+    /*border: 5px solid red;*/
+}
+
+/*! jetzt für katzenliste !*/
+
+ul{
+    /*background-color: lightskyblue;*/
+    color: blueviolet; 
+    /*width: 30%;*/
+   /* float: left;*/
+    /*heigth: 100%;*/
+    /*border: 2px dotted blue;*/
+    /*text-align: center;*/
+}
+/*ul:hover {
+    color: black;
+}*/
+li {
+    text-align: center;
+    /*background-color: green;*/
+    /*width: 50%; */
+    /*border: 1px solid lightskyblue;*/
+    /*float: right;*/   
+}
+li:hover {
+    color: orange;
+}
+li span {
+    color: white;
+    background-color: blue;
+}
+li span:hover{
+    color: black;
+    background-color: white;
+}
+/*! katzenliste ende !*/
+
+/*! für ohne liste !*/
+nav a {
+    color: white;
+    /*background-color: blue;*/
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*! für ohne liste Ende !*/
+
+nav h2{
+     width: 47%;
+     /*vertical-align: middle;*/
+     background-color: lightgreen;
+     float: right;
+     display: table;
+     display: table-cell;
+     color: darkgreen;
+     text-decoration:overline;
+}
+
+main {
+    /* border: 5px solid pink; */
+	/*height: 500px;*/  /*nur für Layoutzwecke*/
+	/*background: #EFDCC7;*/
+}
+
+main h2 {
+    color: green;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+hr {
+    width: 70%;
+    color: green;
+    margin-bottom: 50px;
+}
+
+main p {  /*Pfadschreibweise zum Element p*/
+	/*line-height: 30px;*/
+}
+
+.zentriert {
+	text-align: center;
+}
+.bildkleiner2{
+    width: 25%;
+}
+
+main img {
+	width: 50%;
+}
+
+footer {
+	height: 80px;
+	background: green;
+    /*border: 5px solid red;*/
+    font-style: italic
+}
+
+strong {
+    background-color: white;
+    color: red;    
+}
+
+ol{
+    color: red;
+}
+
+dl {
+    
+    /*border: 2px dotted green;*/
+}
+dt{
+    /*border: 2px solid blue;*/
+}
+dd{
+/*    border: 2px solid red;*/
+}

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+#########################################
+### Custom Properties (Css-Variablen) ###
+*/
+
+:root {
+    --farbe1: black; /*hintergund*/
+    --farbe2: rgb(59, 56, 56);
+    --farbe3: lightgray;
+}
+
+                        /*
+#########################
+### UNIVERSALSELEKTOR ###
+                        */
+
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+                /* 
+#################
+### RUNDHERUM ### 
+                */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	color: black;
+	background-color: var(--farbe1);
+    text-align: center;
+}
+
+#container {
+	width: 90%; 
+	max-width: 1200px;
+	margin: auto; 
+    background: var(--farbe3);
+    
+}
+
+            /* 
+### KOPF ### 
+*/
+
+header {
+	height: 100%;
+	background: var(--farbe2);
+}
+
+                /*
+##################
+### Navigation ###
+                */
+
+nav {
+    background-color: var(--farbe2);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--farbe3);
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--farbe3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    white-space: nowrap;
+}
+  
+.topnav a:hover {
+    background-color: var(--farbe1);
+    color: white;
+}
+
+.menupunkt {
+    background-color: var(--farbe2);
+
+}
+  
+.topnav .aktiver_menupunkt {
+    background-color: var(--farbe3);
+    color: var(--farbe2);
+    font-weight: bold;
+}
+.topnav .aktiver_menupunkt:hover {
+    background-color: var(--farbe3);
+    color:white;
+}
+
+.topnav .nach_aktivem_menupunkt {
+    border-bottom-left-radius: 8px;
+}
+.topnav .vor_aktivem_menupunkt {
+    border-bottom-right-radius: 8px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+            /*
+##############
+### INHALT ###
+            */
+
+
+h1 {
+    color: var(--farbe2);
+    white-space: nowrap;
+}
+
+h2 {
+    color: var(--farbe2);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+hr {
+    width: 70%;
+    height: 5px;
+    color: var(--farbe2);
+    margin-bottom: 50px;
+    margin: auto;
+    margin-bottom:  10px;
+}
+
+a {
+    color: var(--farbe2);
+}
+
+            /*
+############
+### FUSS ###
+            */
+footer {
+	height: 80px;
+	background: var(--farbe1);
+    font-style: italic;  
+    color: var(--farbe3);
+}
+footer a {
+    color: var(--farbe3);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--farbe3);
+    text-decoration: underline;
+}

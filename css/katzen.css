@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+main{
+    color: black;
+}
+
+div.ueberschrift {
+    background-color: var(--farbe3);
+    white-space: nowrap;
+}
+
+/* Sektionen */
+#niedlich {
+    background-color: white;
+
+}
+#boese {
+    background-color: black;
+    padding-top: 30px;
+}
+
+/* Sektions-Überschriften */
+.boese {
+    float: right;
+}
+a.boese {
+    text-decoration: none;
+    transform: rotate(30deg);
+    padding-left: 10px;
+}
+a.boese:hover {
+    color: var(--farbe1);
+    text-decoration: underline;
+}
+
+a.niedlich {
+    text-decoration: none;
+    float: right;
+    padding-left: 10px;
+    font-style: italic;
+}
+a.niedlich:hover {
+    text-decoration: underline;
+}
+
+.niedlich {
+    float: right;
+}
+
+/*
+KATZENBILDER 
+Section1
+*/
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box {
+	width: 300px;
+	height: 300px;
+	margin: 15px;
+    padding: 15px;
+	background-color: var(--farbe3);
+    filter: grayscale(100%);
+}
+.liebsteNiedlicheKatze {
+    border-color: black;
+    border-style: dotted;
+    border-width: 4px;
+}
+.box:hover {
+    color: var(--farbe3);
+    filter: grayscale(0%);
+    color: darkgreen;
+    background-color:rgb(250, 213, 170);
+}
+
+.katzenbild {
+	width: 100%;
+}
+.katzentext {
+    padding: 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+.katzentext h3 {
+    padding-bottom: 8px;
+    color: red;
+}
+
+/*
+KATZENBILDER 
+Section2
+*/
+
+.boesebox {
+	width: 300px;
+	height: 300px;
+	margin: 15px;
+    padding: 15px;
+	background-color: var(--farbe3);
+}
+.boesebox h3 {
+    padding: 50px;
+} 
+.boesebox:hover {
+    color: rgba(0, 0, 0, 0.0);;
+}
+.boesebox:hover h3 {
+    color: orange;
+    text-align: right;
+    padding: 0;
+}
+.boesebox:hover span {
+    background-color: black;
+}
+
+.boesebild1 {
+    background-image: url("../images/big-cat/12.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild1:hover {
+    background-image: url("../images/big-cat/12.png");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild2 {
+    background-image: url("../images/big-cat/01.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild2:hover {
+    background-image: url("../images/big-cat/01.jpg");
+	background-size: cover;
+    background-position: center;
+    filter: grayscale(0%);
+}
+.boesebild3 {
+    background-image: url("../images/big-cat/02.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild3:hover {
+    background-image: url("../images/big-cat/02.jpg");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild4 {
+    background-image: url("../images/big-cat/03.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild4:hover {
+    background-image: url("../images/big-cat/03.jpg");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild5 {
+    background-image: url("../images/big-cat/06.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild5:hover {
+    background-image: url("../images/big-cat/06.jpg");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild6 {
+    background-image: url("../images/big-cat/07.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild6:hover {
+    background-image: url("../images/big-cat/07.jpg");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild7 {
+    background-image: url("../images/big-cat/09.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild7:hover {
+    background-image: url("../images/big-cat/09.jpg");
+	background-size: cover;
+    background-position: right;
+    filter: grayscale(0%);
+}
+.boesebild8 {
+    background-image: url("../images/big-cat/10.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild8:hover {
+    background-image: url("../images/big-cat/10.jpg");
+	background-size: cover;
+    background-position: left;
+    filter: grayscale(0%);
+}
+.boesebild9 {
+    background-image: url("../images/big-cat/14.jpg");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.boesebild9:hover {
+    background-image: url("../images/big-cat/14.jpg");
+	background-size: cover;
+    background-position: center;
+    filter: grayscale(0%);
+}
+
+
